@@ -1,0 +1,49 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @font-face {
+  font-family: font;
+  src: url(../font/TruenoRg.otf);
+}
+
+* {
+  font-family: font;
+}
+
+#index-banner{
+  background-image: url(../media/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel{
+  padding: 0;
+  margin: 0;
+  height: 13em;
+}
+
+.carousel-item{
+  height:auto;
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.flip-clock-divider .flip-clock-label{
+  font-family: font;
+  font-size: 2em;
+  color: white;
+  top: 4.5em;
+}
